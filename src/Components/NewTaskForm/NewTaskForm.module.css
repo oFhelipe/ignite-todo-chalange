@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: -1.687rem;
+  padding: 0 1rem;
+}
+
+.form > input {
+  height: 3.375rem;
+  width: 39.875rem;
+  border-radius: 8px;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  padding: 1rem;
+  color: var(--gray-100);
+}
+
+.form > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+
+  height: 3.25rem;
+  width: 5.625rem;
+  border-radius: 8px;
+  
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  border: none;
+  padding: 1rem;
+  
+  font-size: 0.875rem;
+  line-height: 140;
+  font-weight: 700;
+}
